@@ -57,4 +57,3 @@ write.table(FinalData, "FinalData.txt", row.name=FALSE)
 # Final str(FinalData)
 Checking variable names
 
-
