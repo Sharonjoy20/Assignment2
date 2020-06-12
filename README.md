@@ -53,6 +53,8 @@ FinalData <- TidyData %>%
     group_by(subject, activity) %>%
     summarise_all(funs(mean))
 write.table(FinalData, "FinalData.txt", row.name=FALSE)
-str(FinalData)
+
+# Final str(FinalData)
+Checking variable names
 
 
